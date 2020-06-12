@@ -1,0 +1,9 @@
+line
+{
+	display: block;
+	width: 90%;
+	height: 5px;
+	margin: 5px auto 5px; /* top vertical bottom */
+
+	background-color: grey;
+}

@@ -1,0 +1,40 @@
+section.project-catalogue
+{
+	margin: 25px auto;
+	width: 90%;
+}
+
+section.project-catalogue h2
+{
+	padding-left: 5%;
+}
+
+section.project-catalogue ul
+{
+	list-style-type: none;
+	padding-left: 0px;
+	width: 100%
+	margin: auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section.project-catalogue li
+{
+	width: 20%;
+	margin-left: 3%;
+}
+
+section.project-catalogue img
+{
+	width: 100%;
+	height: auto;
+}
+
+figcaption
+{
+	text-align: center;
+	font-size: 1.2em;
+}

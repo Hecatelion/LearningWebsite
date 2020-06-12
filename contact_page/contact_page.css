@@ -1,0 +1,149 @@
+/*
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+*/
+.content
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+div.gallery
+{
+	margin: 0px 40px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 15%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.courier
+{
+	font-size: 0.6em;
+	font-family: courier;
+}
+
+/*
+.documents-links
+{
+	width: 80%;
+	margin: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}*/
+
+/*
+.documents-links > a
+{
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+}
+/*
+.documents-links > a :after 
+{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}*/
+/*
+a > figure 
+{
+	width: 100%;
+	background-color: red;
+}*/
+
+/*
+figure > * > img
+{
+	width: 100%;
+	height: 100%;
+}*/
+/*
+section.project-catalogue
+{
+	margin: 25px auto;
+	width: 90%;
+}
+
+section.project-catalogue h2
+{
+	padding-left: 5%;
+}
+
+section.project-catalogue ul
+{
+	list-style-type: none;
+	padding-left: 0px;
+	width: 100%
+	margin: auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section.project-catalogue li
+{
+	width: 20%;
+	margin-left: 3%;
+}
+
+section.project-catalogue img
+{
+	width: 100%;
+	height: auto;
+}
+
+figcaption
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+*/

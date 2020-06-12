@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+
+		<link rel="stylesheet" href="slider_v2.css"/>
+
+		<title>Slider Test</title>
+	</head>
+
+	<body>
+
+		<div class="slider">
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="../resources/slider/1.jpg"></slide>
+				<slide><video src="../resources/slider/vid.mp4" controls></video></slide>
+				<slide>slide 2</slide>		
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+		</div>
+
+		<script src="slider.js"></script>
+		
+	</body>
+</html>

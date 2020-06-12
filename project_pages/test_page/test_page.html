@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>test page</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/index.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Project Name</h1>
+			<download><a href="https://drive.google.com/drive/folders/1eJ6Zf0BZH6rXm30aCL-LwofYNyS5OHfG?usp=sharing" target="_blank">Download</a></download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>game type : </li>
+				<li>team : n artists, n programmers, n programmers/designer</li>
+				<li>dev duration : </li>
+				<li>engine, langage : </li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+			<!--
+				<slide>slide</slide>
+				<slide>slide</slide>
+			-->
+				<slide><img src="resources/1.jpg"></slide>
+				<slide><video src="resources/vid.mp4" controls></video></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Level Designer</h2>
+				<ul>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+					<li>task</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

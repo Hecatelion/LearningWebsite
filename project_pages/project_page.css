@@ -1,0 +1,76 @@
+p
+{
+	font-size: 1.1em;
+}
+/*
+// -------------------------
+// OVERVIEW
+*/
+.overview
+{
+	width: 80%;
+	height: 50%;
+	margin: 20px auto 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.infos
+{
+	width: 50%;
+	padding-right: 50px;
+}
+/*
+// -------------------------
+// DETAIL
+*/
+.detail
+{
+	width: 80%;
+	margin: 20px auto 20px;
+}
+
+.detail > h1
+{
+	text-align: center;
+}
+
+.tasks
+{
+	font-size: 1.2em;
+	width: 80%;
+	margin: 20px auto 20px;
+	justify-content: space-around;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.task-list > .task-section
+{
+	margin: 0 20px;
+}
+
+.task-section
+{
+	padding: 0px 20px;
+}
+
+#task-anchor
+{
+	height: 25px;
+}
+
+/*
+#prog-task-section
+{
+	background-color: red;
+}
+
+#LD-task-section
+{
+	background-color: green;
+}
+*/
